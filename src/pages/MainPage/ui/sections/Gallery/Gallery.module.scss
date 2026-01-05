@@ -1,0 +1,27 @@
+.Gallery {
+    position: relative;
+    min-height: calc(100vh + 200px * 10); // на 10 карточек
+    overflow: hidden;
+}
+
+.image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50vw;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 170, 255, 0.3);
+    z-index: 1;
+    pointer-events: none;
+}
+.centerButton {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    opacity: 0; // будет управляться через gsap
+}

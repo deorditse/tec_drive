@@ -1,0 +1,23 @@
+.FullBlock {
+    background: #1a1a1a;
+    padding: 2rem;
+    border-radius: 16px;
+    margin-bottom: 3rem;
+    // box-shadow: 0 10px 25px rgba(0, 170, 255, 0.2);
+}
+
+.CardRow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.Card {
+    background: #151515;
+    padding: 1.5rem;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 170, 255, 0.1);
+    border: 1px solid #00aaff33;
+}
