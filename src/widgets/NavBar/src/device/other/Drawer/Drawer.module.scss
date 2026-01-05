@@ -1,0 +1,61 @@
+// .menuButton {
+//     background: none;
+//     border: none;
+//     cursor: pointer;
+//     z-index: 1002;
+//     color: white; // если тёмный фон
+// }
+
+// .overlay {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     z-index: 1000;
+//     width: 100vw;
+//     height: 100vh;
+//     background: rgba(0, 0, 0, 0.5);
+//     display: flex;
+//     justify-content: flex-end;
+//     animation: fadeIn 0.2s ease-in-out forwards;
+// }
+
+// .drawer {
+//     background-color: #111; // или #fff
+//     width: 80%;
+//     max-width: 300px;
+//     height: 100%;
+//     padding: 24px;
+//     display: flex;
+//     flex-direction: column;
+//     animation: slideIn 0.3s ease-in-out forwards;
+// }
+
+// .nav {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 16px;
+// }
+
+// .textNav {
+//     color: white; // если тёмный фон
+//     text-align: left;
+//     font-size: 18px;
+// }
+
+// @keyframes slideIn {
+//     from {
+//         transform: translateX(100%);
+//     }
+//     to {
+//         transform: translateX(0%);
+//     }
+// }
+
+// @keyframes fadeIn {
+//     from {
+//         opacity: 0;
+//     }
+//     to {
+//         opacity: 1;
+//     }
+// }

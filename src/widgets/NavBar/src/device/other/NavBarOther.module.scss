@@ -1,0 +1,25 @@
+.NavBar {
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Контейнер для логотипа */
+.left {
+    display: flex;
+    align-items: center;
+}
+
+/* Контейнер для кнопки и Drawer */
+.right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
