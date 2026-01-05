@@ -1,0 +1,20 @@
+.app_light_theme {
+    --gradient-green: linear-gradient(to right top, #02deec, #02e4c5, #02ec94);
+    --greenAccent: var(--green);
+    --greenDark: var(--greenHover);
+    --divider: #3f4245;
+
+    ///
+    --primaryColor: #0088cc;
+    --green: var(--primaryColor);
+    --greenHover: var(--primaryColor) ;
+    --greenActive: ##00679a;
+    --blue: #272464;
+    --black: #0d0d0e;
+    --blueDark: #24262b;
+    --greyBlue: #444950;
+    --glassSubstrate: rgba(46, 46, 46, 0.56);
+    --greyBlueOpacity: rgba(68, 73, 80, 0.56);
+    --lightGray: #ededed;
+    --white: #ffffff;
+}

@@ -1,0 +1,50 @@
+@use "src/reset";
+@use "src/variables/global";
+@use "src/themes/normal";
+
+.app,
+.app_modal,
+.app_drawer {
+    font: var(--font-m);
+    color: var(--white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%; // Чтобы не уменьшалось слишком сильно
+    margin: 0 auto; // Центрируем
+}
+
+.app {
+    background-color: var(--black);
+    min-height: 100vh;
+}
+
+.content-page {
+    display: flex;
+}
+
+/* Глобальные стили для скроллбаров */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

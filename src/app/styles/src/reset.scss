@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    position: relative;
+    z-index: 1;
+}
+
+li {
+    list-style-type: none;
+}
+
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    font: inherit;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+img {
+    user-select: none; /* Запрещает выделение */
+    pointer-events: none; /* Отключает события (если нужно) */
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+    &:hover {
+        color: var(--primaryColor);
+    }
+}
+
+body {
+    background-color: #0d0d0e;
+}
+
+::selection {
+    background: var(--primaryColor);
+}
