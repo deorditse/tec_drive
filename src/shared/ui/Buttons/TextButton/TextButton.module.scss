@@ -2,10 +2,14 @@
     cursor: pointer;
     background: transparent;
     border: none;
+    color: var(--black);
+     &:hover {
+        color: var(--primaryColor);
+    }
 }
 
 .green {
-    color: var(--white);
+    // color: var(--white);
     &:hover {
         color: var(--green);
     }

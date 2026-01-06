@@ -7,7 +7,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ButtonTheme, MyButton } from "@/shared/ui/Buttons/Button";
 import { MyText, TextAlign, TextSize } from "@/shared/ui/Text";
 import { MySection } from "@/shared/ui/Section";
-import videoHeader from "@/shared/assets/video/video.mp4";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -74,9 +73,9 @@ const Header = memo((props: HeaderProps) => {
                 className={classNames(cls.Header, {}, [className])}
             >
                 <div ref={videoRef} className={cls.videoWrapper}>
-                    <video autoPlay muted loop playsInline>
+                    {/* <video autoPlay muted loop playsInline>
                         <source src={videoHeader} type="video/mp4" />
-                    </video>
+                    </video> */}
 
                     {/* <video
                         src={videoHeader}

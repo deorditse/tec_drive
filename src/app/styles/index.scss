@@ -6,7 +6,7 @@
 .app_modal,
 .app_drawer {
     font: var(--font-m);
-    color: var(--white);
+    color: var(--black);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-style: normal;
@@ -16,7 +16,7 @@
 }
 
 .app {
-    background-color: var(--black);
+    background-color: var(--white);
     min-height: 100vh;
 }
 
@@ -36,7 +36,7 @@
 }
 
 *::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #000000;
     border-radius: 10px;
 }
 
