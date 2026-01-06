@@ -27,7 +27,7 @@ const NavBarOther = memo((props: NavBarProps) => {
                         onClick={handleContactUsTelegram}
                         theme={ButtonTheme.WHITE}
                     >
-                        Заказать бота
+                       Связаться с нами
                     </MyButton>
                     <DrawerAsync />
                 </div>

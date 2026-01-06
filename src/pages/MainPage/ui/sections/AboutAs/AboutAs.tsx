@@ -156,7 +156,7 @@ export const AboutAs = () => {
                 marginBottom={false}
             >
                 <MyIcon
-                    style={{ width: "100%" }}
+                    style={{ width: "100%", height: "auto" }}
                     data-testid="Map"
                     Svg={MapSvg}
                 />

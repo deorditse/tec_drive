@@ -57,7 +57,7 @@ video {
 
 .contentOverlay {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -82,7 +82,6 @@ video {
     .contentOverlay {
         width: 100%;
         max-width: 80%;
-        top: 60%;
     }
 }
 /* Desktop */

@@ -39,7 +39,8 @@ export default (env: BuildEnv) => {
         },
         build: {
             assetsInlineLimit: 0,
-            outDir: "docs",
+            // outDir: "docs",
         },
+        base: "/tec_drive/",
     });
 };

@@ -88,6 +88,7 @@ const Header = memo((props: HeaderProps) => {
                     <div ref={contentRef} className={cls.contentOverlay}>
                         <MyText
                             size={TextSize.H1}
+                            align={TextAlign.CENTER}
                             heading="ТЭК ДРАЙВ - Ваш надежный партнер"
                         />
 
