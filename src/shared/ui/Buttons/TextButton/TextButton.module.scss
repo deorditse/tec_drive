@@ -3,7 +3,7 @@
     background: transparent;
     border: none;
     color: var(--black);
-     &:hover {
+    &:hover {
         color: var(--primaryColor);
     }
 }
@@ -15,9 +15,17 @@
     }
 }
 
+.white{
+    color: var(--white);
+    &:hover {
+        color: var(--primaryColor);
+    }
+}
+
 .size_ss {
     font: var(--font-ss);
 }
+
 .size_s {
     font: var(--font-s);
     font-weight: 400;

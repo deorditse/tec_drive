@@ -1,5 +1,5 @@
 .FullBlock {
-    background: #1a1a1a;
+    background: var(--blueDark);
     padding: 2rem;
     border-radius: 16px;
     margin-bottom: 3rem;
@@ -13,11 +13,24 @@
 }
 
 .Card {
-    background: #151515;
+    background: var(--blueDark);
     padding: 1.5rem;
     border-radius: 14px;
     text-align: center;
     font-size: 1rem;
-    box-shadow: 0 8px 20px rgba(0, 170, 255, 0.1);
-    border: 1px solid #00aaff33;
+    box-shadow: 0 10px 20px var(--blueDark);
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mapButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
 }

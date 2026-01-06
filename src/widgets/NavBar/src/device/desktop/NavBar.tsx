@@ -31,7 +31,7 @@ const NavBar = memo((props: NavBarProps) => {
                 {menu.map((nav: MenuSchema) => (
                     <TextButton
                         key={nav.title}
-                        size={TextButtonSize.Ss}
+                        size={TextButtonSize.S}
                         className={cls.textNav}
                         onClick={handleClickNav(nav)}
                     >
@@ -41,9 +41,9 @@ const NavBar = memo((props: NavBarProps) => {
             </div>
             <MyButton
                 onClick={handleContactUsTelegram}
-                theme={ButtonTheme.WHITE}
+                theme={ButtonTheme.BLUE}
             >
-                Заказать бота
+                Связаться с нами
             </MyButton>
         </div>
     );

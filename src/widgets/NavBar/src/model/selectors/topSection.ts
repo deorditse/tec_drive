@@ -39,24 +39,17 @@ export function useMenu(): MenuSchema[] {
     return useMemo(
         () => [
             {
-                title: "Решение для бизнеса",
+                title: "О компании",
                 onClick: () =>
                     handleClickNav({
-                        toSectionId: "business",
+                        toSectionId: "about_us",
                     }),
             },
-            {
-                title: "Обучение",
-                onClick: () =>
-                    handleClickNav({ toCustom: handleContactUsTelegram }),
-            },
-            {
-                title: "Связаться с нами",
-                onClick: () =>
-                    handleClickNav({
-                        toSectionId: "contact",
-                    }),
-            },
+            // {
+            //     title: "Обучение",
+            //     onClick: () =>
+            //         handleClickNav({ toCustom: handleContactUsTelegram }),
+            // },
             // пример перехода на страницу:
             // {
             //   title: 'Тарифы',

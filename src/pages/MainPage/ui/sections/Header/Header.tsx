@@ -7,6 +7,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ButtonTheme, MyButton } from "@/shared/ui/Buttons/Button";
 import { MyText, TextAlign, TextSize } from "@/shared/ui/Text";
 import { MySection } from "@/shared/ui/Section";
+import { MyImage } from "@/shared/ui/AppImage/AppImage";
+import MainImg from "@/shared/assets/images/main.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -63,11 +65,7 @@ const Header = memo((props: HeaderProps) => {
     };
 
     return (
-        <MySection
-            marginLeft={false}
-            marginRight={false}
-            className={cls.Header}
-        >
+        <MySection marginLeft={false} marginRight={false}>
             <div
                 ref={wrapperRef}
                 className={classNames(cls.Header, {}, [className])}
@@ -85,19 +83,22 @@ const Header = memo((props: HeaderProps) => {
                         playsInline
                         style={{ height: "inherit" }}
                     /> */}
+                    <MyImage className={cls.mainImg} src={MainImg} />
 
                     <div ref={contentRef} className={cls.contentOverlay}>
                         <MyText
                             size={TextSize.H1}
-                            heading="Разработка ботов с AI"
+                            heading="ТЭК ДРАЙВ - Ваш надежный партнер"
                         />
 
                         <MyText
                             align={TextAlign.CENTER}
                             text={
                                 <>
-                                    Создаем умные решения для бизнеса с помощью
-                                    современных технологий
+                                    Специализация ТЭК ДРАЙВ - создание
+                                    индивидуальных отраслевых цепочек поставок
+                                    на территории России, в странах СНГ, Азии и
+                                    эффективное управление их себестоимостью.
                                 </>
                             }
                         />

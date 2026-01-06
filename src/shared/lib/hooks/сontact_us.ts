@@ -1,6 +1,6 @@
 export const handleContactUsTelegram = () => {
     window.open(
-        "https://t.me/deorbot_official",
+        "https://t.me/tec_drive",
         "_blank",
         "noopener,noreferrer"
     );
