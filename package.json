@@ -1,6 +1,6 @@
 {
     "outDir": "./dist/",
-    "name": "deorbot_landing",
+    "name": "tec_drive",
     "private": true,
     "version": "0.0.0",
     "type": "module",

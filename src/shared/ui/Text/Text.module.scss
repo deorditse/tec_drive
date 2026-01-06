@@ -1,0 +1,111 @@
+.text {
+    color: var(--lightGray);
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.H5 {
+    .heading {
+        font: var(--font-ss);
+        font-weight: 600;
+    }
+
+    .text {
+        font: var(--font-ss);
+        font-weight: 400;
+    }
+}
+
+.H4 {
+    .heading {
+        font: var(--font-s-semibold);
+        font-weight: 400;
+    }
+
+    .text {
+        font: var(--font-s);
+        font-weight: 400;
+    }
+}
+
+.H3 {
+    .heading {
+        font: var(--font-m-semibold);
+        font-weight: 600;
+    }
+
+    .text {
+        font: var(--font-s);
+    }
+}
+
+.H2 {
+    .heading {
+        font: var(--font-l);
+        font-weight: 600;
+    }
+
+    .text {
+        font: var(--font-m);
+    }
+}
+
+.H1 {
+    .heading {
+        font: var(--font-xl);
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .text {
+        font: var(--font-l);
+        font-weight: 600;
+    }
+}
+
+// Для десктопа _/
+@media (min-width: 960px) {
+}
+
+//_ Для планшетов _/
+@media (max-width: 959px) {
+    .H1 {
+        .heading {
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+}
+
+//_ Для мобильных _/
+@media (max-width: 450px) {
+    .H1 {
+        .heading {
+            font-size: 28px;
+            line-height: 30.5px;
+        }
+    }
+}
+
+.text-font {
+    font-family: var(--font-family-SBSansText-Regular);
+}
+
+.display-font {
+    font-family: var(--font-family-SBSansDisplay-Regular);
+}
+
+.semibold-font {
+    font-family: var(--font-family-SBSansText-Semibold);
+}

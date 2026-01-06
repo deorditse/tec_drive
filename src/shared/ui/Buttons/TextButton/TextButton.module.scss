@@ -1,0 +1,42 @@
+.TextButton {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.green {
+    color: var(--white);
+    &:hover {
+        color: var(--green);
+    }
+}
+
+.size_ss {
+    font: var(--font-ss);
+}
+.size_s {
+    font: var(--font-s);
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.size_m {
+    font: var(--font-m);
+    font-weight: 400;
+}
+
+.size_l {
+    font: var(--font-l);
+}
+
+.size_xl {
+    font: var(--font-xl);
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.fullWidth {
+    width: 100%;
+}

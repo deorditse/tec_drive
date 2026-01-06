@@ -1,0 +1,67 @@
+.section {
+    width: auto;
+    margin: auto;
+    &.fillColor {
+        background-color: var(--blueDark);
+    }
+}
+.width {
+    max-width: 100%;
+}
+
+.marginLeft {
+    padding-left: 16px;
+}
+
+.marginRight {
+    padding-right: 16px;
+}
+
+.marginTop {
+    padding-top: 16px;
+}
+
+.marginBottom {
+    padding-bottom: 16px;
+}
+
+.borderRadius {
+    border-radius: var(--borderRadiusMobile);
+}
+
+.title {
+    padding-bottom: 24px;
+}
+
+/* Tablet */
+@media (min-width: 451px) {
+    .marginLeft {
+        padding-left: 40px;
+    }
+    .marginRight {
+        padding-right: 40px;
+    }
+
+    .marginTop {
+        padding-top: 32px;
+    }
+
+    .marginBottom {
+        padding-bottom: 32px;
+    }
+    .title {
+        padding-bottom: 16px;
+    }
+    .borderRadius {
+        border-radius: var(--borderRadius);
+    }
+}
+/* Desktop */
+@media (min-width: 960px) {
+    .marginLeft {
+        padding-left: 128px;
+    }
+    .marginRight {
+        padding-right: 128px;
+    }
+}

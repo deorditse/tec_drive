@@ -1,0 +1,53 @@
+.Button {
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 9px 16px;
+    color: var(--black);
+    width: max-content;
+    height: max-content;
+    user-select: none;
+}
+
+.white {
+    background-color: var(--white);
+
+    &:hover {
+        background-color: var(--lightGray);
+    }
+}
+
+.blue {
+    color: var(--white);
+    background-color: var(--primaryColor);
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.size_s {
+    font: var(--font-ss);
+    font-weight: 600;
+}
+
+.size_m {
+    font: var(--font-s);
+    font-weight: 600;
+}
+
+.size_l {
+    font: var(--font-m);
+}
+
+.size_xl {
+    font: var(--font-l);
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.fullWidth {
+    width: 100%;
+}
