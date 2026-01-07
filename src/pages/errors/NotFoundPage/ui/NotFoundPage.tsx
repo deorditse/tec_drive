@@ -58,7 +58,7 @@ const NotFoundPage = ({ className }: NotFoundPageProps) => {
                                 <>
                                     Пока не знаем в чём проблема,
                                     <br />
-                                    но мы скоро это
+                                    но мы скоро это исправим
                                 </>
                             }
                         />
