@@ -1,1 +1,0 @@
-import{r as t,a as e,j as o,c}from"./index-DH7_g1Xa.js";const n=t.memo(a=>{const{className:s}=a,{t:r}=e();return o.jsx("div",{className:c("",{},[s]),children:"EducationPage"})});n.displayName="EducationPage";export{n as default};
